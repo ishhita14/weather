@@ -1,0 +1,53 @@
+.weather-table-container {
+    background-color: rgb(9, 9, 9);
+    padding: 20px;
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    margin: 20px auto;
+    overflow-x: auto;
+    width: 95vw; 
+    left: 20px;
+  }
+  .weather-table-container h3{
+    display: inline-block;
+    margin-left: 5px;
+  }
+  .weather-table-container button{
+    background-color: rgb(9, 9, 9);
+    color: white;
+    border-radius: 50%;
+    padding: auto;
+    border: 1px solid rgb(9, 9, 9);
+  }
+  .weather-tables {
+    display: flex; 
+    justify-content: space-around;
+  }
+  .weather-table {
+    width: 32%; 
+    height: 70%;
+    font-size: 14px;
+    border-collapse: collapse;
+    align-items: center;
+  }
+  
+  .weather-table th,
+  .weather-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    height: 10px;
+    
+  }
+  
+  .weather-table th {
+    background-color: #000000;
+  }
+  
+  .weather-table tbody tr:nth-child(even) {
+    background-color: #222222;
+  }
+  
+  .weather-table tbody tr:hover {
+    background-color: #000000;
+  }
+  

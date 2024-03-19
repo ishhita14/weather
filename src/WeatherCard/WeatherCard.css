@@ -1,0 +1,62 @@
+.weather-card {
+    background-color: rgb(9, 9, 9);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 95vw;
+    margin: 20px auto;
+  }
+  
+  .weather-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .weather-card p {
+    margin: 5px 0;
+  }
+  .weather-card h3{
+    display: inline-block;
+    margin-left: 5px;
+  }
+  .weather-card button{
+    background-color: rgb(9, 9, 9);
+    color: white;
+    border-radius: 50%;
+    padding: auto;
+    border: 1px solid rgb(9, 9, 9);
+  }
+  .weather-tab {
+    background-color:rgb(21, 21, 21);
+    border: 1px solid rgb(21, 21, 21);
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 160px;
+    max-width: 2000px;
+    height: 95px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    transition: transform 0.3s ease;
+  }
+  .weather-tab:hover{
+    transform: scale(1.1);
+  }
+  .weather-tab h5{
+    margin-top: 15px;
+  }
+  .parameterValue {
+    margin-top: -15px;
+    font-size: 3rem;
+    font-family:Helvetica;
+    font-weight: 500;
+  }
+  .tabs-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
