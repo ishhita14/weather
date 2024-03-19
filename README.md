@@ -1,3 +1,15 @@
+A weather dashboard that displays real-time weather information fetched via API calls. 
+API Provider : open-meteo.com
+
+
+
+https://github.com/ishhita14/weather/assets/118781988/9c28ce79-7f12-4c94-abfa-f03f0693c724
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
